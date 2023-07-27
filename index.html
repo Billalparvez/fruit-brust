@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fruits</title>
     <link rel="stylesheet" href="css/style.css">
+    <!-- favicons -->
+    <link rel="shortcut icon" href="./images/fruit1.png" type="image/x-icon">
     <!-- daisy ui -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -40,37 +42,37 @@
     </script>
 </head>
 
-
 <body>
+    <!-- start-header -->
     <header class="max-w-7xl mx-auto py-2">
-        <!-- navbar -->
+        <!-- start-nav -->
         <nav class="lg:py-10">
             <div class="navbar  justify-between flex items-center md:bg-primary-color p-5 rounded-full">
 
-                    <div class=" hidden lg:flex">
-                        <ul class="menu menu-horizontal px-1 text-white font-medium">
-                            <li><a>Home</a></li>
-                            <li><a>About</a></li>
-                            <li><a>Shop</a></li>
-                            <li><a>All Fruit</a></li>
-                        </ul>
-                    </div>
-                    <div class=" flex-row-reverse md:flex-row lg:flex-row">
-                        <div class="dropdown">
-                            <label tabindex="0" class="btn btn-ghost lg:hidden">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                                    stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M4 6h16M4 12h8m-8 6h16" />
-                                </svg>
-                            </label>
+                <div class=" hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 text-white font-medium">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruit</a></li>
+                    </ul>
+                </div>
+                <div class=" flex-row-reverse md:flex-row lg:flex-row">
+                    <div class="dropdown">
+                        <label tabindex="0" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </label>
 
-                        </div>
-                        <div class="flex items-center mr-10   md:text-white font-medium gap-3">
-                            <img class="w-10 h-10" src="./images/logo.png" alt="">
-                            <a class="text-2xl md:text-4xl">Fruit Burst</a>
-                        </div>
                     </div>
+                    <div class="flex items-center mr-10   md:text-white font-medium gap-3">
+                        <img class="w-10 h-10" src="./images/logo.png" alt="">
+                        <a class="text-2xl md:text-4xl">Fruit Burst</a>
+                    </div>
+                </div>
                 <!-- input -->
                 <div class=" hidden md:block lg:block rounded-full">
                     <div class=" btn rounded-full bg-white">
@@ -80,6 +82,8 @@
                 </div>
             </div>
         </nav>
+        <!-- end-nav -->
+
         <!-- banner -->
         <section class="relative">
             <div class=" carousel w-full">
@@ -204,6 +208,8 @@
         </section>
     </header>
     <!-- end-header -->
+
+    <!-- start-main -->
     <main class="max-w-7xl mx-auto">
         <!--start-deal-section -->
         <section class="md:pt-40">
@@ -500,7 +506,7 @@
                     <!-- cards -->
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
                         <!-- single-card -->
-                        
+
                         <div class="card   ">
                             <figure class="px-10  ">
                                 <img class="w-28 h-28" src="./images/member1.png" alt="Shoes" class="rounded-xl" />
@@ -679,6 +685,8 @@
         </section>
         <!-- end-choose-section -->
     </main>
+    <!-- end-main -->
+
     <!-- footer -->
     <footer class="footer footer-center p-20 bg-black text-base-content rounded">
         <div class="md:container md:mx-auto space-y-5 text-white">
@@ -702,12 +710,13 @@
                     <a><i class="fa-brands fa-linkedin-in mx-3"></i></a>
                     <a><i class="fa-brands fa-apple mx-3"></i></a>
                     <a><i class="fa-brands fa-instagram mx-3"></i></a>
-                    
+
                 </div>
             </div>
 
         </div>
     </footer>
+    <!-- end-footer -->
 </body>
 
 </html>
